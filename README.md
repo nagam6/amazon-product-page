@@ -1,20 +1,29 @@
 # Amazon Product Page Clone
 
-A responsive Amazon product page clone built with HTML and CSS.
+A responsive Amazon-style product page built using semantic HTML and modern CSS.
 
-## Project Description
+## Project Overview
 
-This project recreates an Amazon-style product page layout, including:
+This project recreates a product page inspired by Amazon’s layout and design.  
+The page includes a sticky product image section, product information, a buy box, sponsored products, frequently bought together products, and related deals.
 
-- Header and navigation bar
-- Product image gallery
-- Sticky main product image
-- Product information section
-- Sticky buy box on the right side
-- Sponsored product boxes
-- Product details section
+The project was created as a frontend practice assignment focusing on layout structure, responsive design, and clean semantic HTML.
+
+---
+
+## Features
+
+- Semantic HTML structure
+- CSS Grid and Flexbox layout
+- Sticky product image section
+- Responsive design for tablets and mobile
+- Product recommendation sections
+- Sponsored product cards
 - Frequently bought together section
-- Related products section
+- Amazon-style product details layout
+- Clean UI inspired by Amazon
+
+---
 
 ## Technologies Used
 
@@ -24,23 +33,52 @@ This project recreates an Amazon-style product page layout, including:
 - Flexbox
 - Font Awesome
 
-## Features
+---
 
-- Clean Amazon-inspired layout
-- Right-side sticky buy box
-- Sticky product image while scrolling
-- Responsive layout
-- Product recommendation sections
-- Organized semantic HTML structure
+## Responsive Design
+
+The layout adapts for:
+- Desktop screens
+- Tablets
+- Mobile devices
+
+Responsive behavior includes:
+- Stacked layout on smaller screens
+- Horizontal scrolling recommendation cards
+- Flexible product sections
+- Mobile-friendly navigation spacing
+
+---
+
+## Accessibility Improvements
+
+- Added descriptive `alt` attributes to images
+- Used semantic HTML tags
+- Improved button and link structure
+
+---
+
+## Live Demo
+
+### GitHub Repository
+https://github.com/nagam6/amazon-product-page
+
+### Netlify Live Website
+https://timely-faloodeh-82b6e1.netlify.app
+
+---
 
 ## Folder Structure
 
 ```text
-amazon-product-page/
+project-folder/
 │
 ├── index.html
 ├── styles.css
-├── images/
-│   ├── Amazon.logo.png
-│   └── usa_flag.jpg
-└── README.md
+├── README.md
+│
+└── images/
+    ├── main-image.jpeg
+    ├── Thumbnail1.jpg
+    ├── deal-card1.jpg
+    └── ...
